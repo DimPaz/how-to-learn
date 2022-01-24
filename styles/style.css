@@ -37,6 +37,10 @@
   left: 64px;
 }
 
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
 /*НАУЧИТЬСЯ УЧИТЬСЯ*/
 .header__title {
   text-align: left;
@@ -56,6 +60,7 @@
 
 .header__link {
   position: absolute;
+  color: #2f80ed;
 }
 
 .desc {
@@ -101,6 +106,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -213,6 +219,7 @@
   right: 48px;
   bottom: 0;
   height: 50%;
+  color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -234,6 +241,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 .kaufman__triangle {
@@ -250,7 +258,6 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  color: white;
 }
 
 .section-subtitle__theme_dark {
@@ -260,7 +267,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  color: white;
 }
 
 .table__theme_dark {
@@ -276,7 +282,6 @@
   width: 200px;
   margin-top: 80px;
   list-style: none;
-  color: white;
 }
 
 .table__heading_theme_dark {
@@ -292,4 +297,74 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+/*footer*/
+.footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.footer__conteiner {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-basis: 711px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__author {
+  padding: 18px 0;
+  margin: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column_content_social {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column_links {
+  list-style: none;
+  padding-bottom: 16px;
+}
+
+.footer__column_heading {
+  margin: 0;
+  padding-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column_link {
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__cocial-icon {
+  width: 16px;
+}
+
+.view {
+  text-decoration: none;
+  color: white;
 }
