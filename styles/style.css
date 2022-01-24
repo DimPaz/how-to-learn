@@ -12,10 +12,6 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.index {
-  z-index: 1;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -38,7 +34,7 @@
 }
 
 .logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);
+  background-image: url(../images/logo_place_footer.svg);  
 }
 
 /*НАУЧИТЬСЯ УЧИТЬСЯ*/
@@ -49,6 +45,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .header__subtitle {
@@ -56,19 +53,23 @@
   bottom: 30px;
   left: 64px;
   max-width: 388px;
-}
-
-.header__link {
-  position: absolute;
-  color: #2f80ed;
-}
-
-.desc {
   text-align: left;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+  z-index: 1;
+}
+
+.header__link {
+  position: absolute;
+  color: #2f80ed;
+  text-align: left;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  z-index: 1;
 }
 
 .header__main-illustration {
@@ -203,6 +204,7 @@
   font-size: 120px;
   font-weight: bold;
   text-align: center;
+  z-index: 1;
 }
 
 .feynman__subtitle {
@@ -212,6 +214,7 @@
   font-size: 36px;
   font-weight: normal;
   text-align: center;
+  z-index: 1;
 }
 
 .feynman__link {
@@ -224,6 +227,7 @@
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
+  z-index: 1;
 }
 
 .feynman__main-illustration {
@@ -258,6 +262,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .section-subtitle__theme_dark {
@@ -267,6 +272,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 1;
 }
 
 .table__theme_dark {
@@ -276,6 +282,7 @@
   justify-content: space-between;
   margin: 0 0 90px;
   padding: 0;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
