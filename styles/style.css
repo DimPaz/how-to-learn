@@ -17,7 +17,7 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  background: #a02b2b;
+  background: #f2f2f2;
   position: relative;
   display: flex;
   align-items: center;
@@ -136,7 +136,7 @@
   font-weight: bold;
 }
 
-/*Цифры и факты*/
+/*ЦИФРЫ И ФАКТЫ*/
 .digits {
   display: flex;
   flex-direction: column;
@@ -243,7 +243,7 @@
   left: 0;
 }
 
-/*Принципы обучения*/
+/*ПРИНЦИПЫ ОБУЧЕНИЯ*/
 .kaufman {
   position: relative;
   overflow: hidden;
@@ -344,9 +344,13 @@
 }
 
 .footer__column_content_info {
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column_content_social {
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column_links {
