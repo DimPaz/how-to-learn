@@ -17,10 +17,11 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  background: #f2f2f2;
+  background: #a02b2b;
   position: relative;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo {
@@ -34,6 +35,8 @@
 }
 
 .logo_place_footer {
+  height: 32px;
+  background-repeat: no-repeat;
   background: url(../images/logo_place_footer.svg);
 }
 
