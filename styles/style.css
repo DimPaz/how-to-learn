@@ -122,13 +122,13 @@
   font-weight: normal;
 }
 
-.two-columns__main-text :first-child {
-  padding-top: 0;
-}
-
 .two-columns__paragraph {
   padding-top: 30px;
   margin: 0;
+}
+
+.two-columns__paragraph:first-child {
+  padding-top: 0;
 }
 
 .two-columns__span-accent {
@@ -196,7 +196,7 @@
 
 /*МЕТОД ФЕЙНМАНА*/
 .feynman {
-  min-height: 785px;
+  min-height: 790px;
   padding-top: 100px;
   position: relative;
   display: flex;
@@ -261,6 +261,7 @@
   background-repeat: no-repeat;
   background: url(../images/kaufman-triangle.svg);
   position: absolute;
+  background-size: contain;
   width: 877px;
   height: 877px;
   right: -210px;
