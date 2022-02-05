@@ -1,0 +1,8 @@
+.two-columns__paragraph {
+    padding-top: 30px;
+    margin: 0;
+  }
+  
+.two-columns__paragraph:first-child {
+    padding-top: 0;
+  }
