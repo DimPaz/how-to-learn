@@ -23,7 +23,7 @@
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /* ТЕХНИКА ОБУЧЕНИЯ */
-/* @import url(../blocks/digits/digits.css); */
+@import url(../blocks/digits/digits.css);
 @import url(../blocks/techniques/techniques.css);
 
 @import url(../blocks/section-title/section-title.css);
@@ -56,6 +56,8 @@
 @import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 
+/* ИСТОРИЯ БАРБОРЫ ОАКЛИ */
+@import url(../blocks/oakley/oakley.css);
 
 /* МЕТОД ФЕЙМАНА */
 @import url(../blocks/feynman/feynman.css);
