@@ -78,11 +78,14 @@
 @import url(../blocks/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
 
-
-
 /* ПРИНЦИПЫ ОБУЧЕНИЯ */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+
+/* ПОЛЕЗНЫЕ РЕСУРСЫ */
+@import url(../blocks/resorces/resorces.css);
+@import url(../blocks/resorces/__logo/resorces__logo.css);
+@import url(../blocks/resorces/__logo-zone/resorces__logo-zone.css);
 
 /* ПОДВАЛ */
 @import url(../blocks/footer/footer.css);
