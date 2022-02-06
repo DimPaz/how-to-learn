@@ -6,6 +6,7 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 
 @import url(../blocks/logo/logo.css);
@@ -21,8 +22,9 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
-/* ЦИФРЫ И ФАКТЫ */
-@import url(../blocks/digits/digits.css);
+/* ТЕХНИКА ОБУЧЕНИЯ */
+/* @import url(../blocks/digits/digits.css); */
+@import url(../blocks/techniques/techniques.css);
 
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
@@ -35,6 +37,13 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+/* еще классы добавить для табле */
 
 /* Темная тема */
 @import url(../blocks/table/_theme/table_theme_dark.css);
@@ -52,7 +61,6 @@
 /* ПРИНЦИПЫ ОБУЧЕНИЯ */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
-
 
 /* ПОДВАЛ */
 @import url(../blocks/footer/footer.css);
