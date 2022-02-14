@@ -3,8 +3,10 @@
   width: 240px;
   list-style: none;
   text-align: center;
+  margin-right: 100px;
 }
 
-.cards__item:not(:nth-child(3n)) {
-  margin-right: 100px;
+/* сделал 3n+3 так как если добавлять еще элементы, то они не так располагаются как задуманно */
+.cards__item:nth-of-type(3n+3) {  
+  margin-right: 0;
 }
